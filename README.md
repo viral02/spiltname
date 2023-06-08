@@ -6,11 +6,21 @@ Please check the official laravel installation guide for server requirements bef
 
     git clone https://github.com/viral02/spiltname.git
     cd spiltname
-    cp .env.example .env
+    cp .env.example .env or copy .env.example .env
+    php artisan key:generate
     composer install
     npm install
+    npm run dev
     php artisan serve
-    npm run development
+    
+    I have attached screenshot below for input and output values:
+
+![example](csv.png)
+
+![upload](Upload.png)
+
+![result](result.png)
+
 
 ## Contributing
 
